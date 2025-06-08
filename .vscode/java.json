@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java"
+    ],
+    "java.project.outputPath": "build",
+    "java.project.referencedLibraries": [
+        "lib/h2-2.2.224.jar"
+    ],
+    "java.configuration.workspaceCacheLimit": 90,
+    "java.import.gradle.enabled": false,
+    "java.import.maven.enabled": true,
+    "java.import.exclusions": [
+        "**/node_modules/**",
+        "**/.metadata/**",
+        "**/archetype-resources/**",
+        "**/META-INF/maven/**"
+    ],
+    "java.project.resourceFilters": [
+        "node_modules",
+        ".git"
+    ]
+}
