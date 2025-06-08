@@ -29,11 +29,6 @@ The game is played on a 9x7 board with special zones:
 
 ## How to Run
 
-### Quick Start
-1. Run `build.bat` to compile the project
-2. Run `run.bat` to start the game
-3. Or run `demo.bat` for a quick demo
-
 ### Manual Compilation and Execution
 ```bash
 # Compile
@@ -55,7 +50,6 @@ java -cp "build;lib\*" com.xoudouqi.XouDouQiGame
 - Console I/O
 
 ## Project Status
-✅ **COMPLETED** - All features from the specification have been implemented and tested:
 
 - ✅ Player account management with H2 database
 - ✅ Complete Xou Dou Qi game logic with all rules
@@ -67,5 +61,3 @@ java -cp "build;lib\*" com.xoudouqi.XouDouQiGame
 - ✅ Move validation and piece capture logic
 - ✅ Special terrain interactions (water, traps, sanctuaries)
 - ✅ Animal hierarchy system with special rules
-
-The project is ready to run and fully functional!
