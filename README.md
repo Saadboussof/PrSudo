@@ -32,10 +32,10 @@ The game is played on a 9x7 board with special zones:
 ### Manual Compilation and Execution
 ```bash
 # Compile
-javac -cp "lib\*" -d build src\main\java\com\xoudouqi\*.java src\main\java\com\xoudouqi\model\*.java src\main\java\com\xoudouqi\database\*.java
+javac -cp "lib\h2-2.2.224.jar" -d build java-src\com\xoudouqi\*.java java-src\com\xoudouqi\model\*.java java-src\com\xoudouqi\database\*.java
 
 # Run
-java -cp "build;lib\*" com.xoudouqi.XouDouQiGame
+java -cp "build;lib\h2-2.2.224.jar" com.xoudouqi.XouDouQiGame
 ```
 
 ### Game Options
