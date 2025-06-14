@@ -13,9 +13,9 @@ A Java console application implementing the traditional Chinese board game Xou D
 
 ## Game Rules
 The game is played on a 9x7 board with special zones:
-- Rivers (blue areas) that only certain animals can cross
-- Traps (green areas) that weaken enemy pieces
-- Sanctuaries (orange areas) where pieces cannot be captured
+- Rivers that only certain animals can cross
+- Traps that weaken enemy pieces
+- Sanctuaries where pieces cannot be captured
 
 ### Animal Hierarchy
 1. ELEPHANT (strongest)
